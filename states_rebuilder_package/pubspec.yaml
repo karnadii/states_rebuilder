@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter 
   collection: ^1.14.11
   meta: ^1.7.0
-  navigation_builder: ^0.0.3
+  navigation_builder:
+    git: 
+      url: https://github.com/jgfoster/navigation_builder.git
+      ref: jgfoster-patch-1
 
 dev_dependencies:
   flutter_test:
